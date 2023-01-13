@@ -10,3 +10,7 @@ function inicioSesion()
         alert("Login invalido");
     }
 }
+$('#login').on('click', function(event) {
+    $(location).attr('href', "login.html");
+    return false;
+});
