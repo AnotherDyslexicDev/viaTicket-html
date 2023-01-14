@@ -1,6 +1,3 @@
-window.onload = function() {
-    var input = document.getElementById("usuario").focus();
-  }
 function inicioSesion()
 {
     let usuario = document.getElementById("usuario").value;
