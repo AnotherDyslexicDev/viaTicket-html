@@ -11,22 +11,54 @@
         <link rel="stylesheet" href="assets/css/style.css">      
     </head>
 <body>
-<header>
+  <header>
     <nav class="navbar navbar-expand-lg navbar-dark bg-primary">
-        <div class="container-fluid">
-          <a class="navbar-brand" href="#">Via Ticket</a>
-          
-          <div>            
-            <form class="d-flex" role="search">
-              <button class="btn btn-outline-light me-2" id="login"type="submit"><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-person" viewBox="0 0 16 16">
-                <path d="M8 8a3 3 0 1 0 0-6 3 3 0 0 0 0 6Zm2-3a2 2 0 1 1-4 0 2 2 0 0 1 4 0Zm4 8c0 1-1 1-1 1H3s-1 0-1-1 1-4 6-4 6 3 6 4Zm-1-.004c-.001-.246-.154-.986-.832-1.664C11.516 10.68 10.289 10 8 10c-2.29 0-3.516.68-4.168 1.332-.678.678-.83 1.418-.832 1.664h10Z"/>
-              </svg> </button> 
-
-            </form>
-          </div>
+      <div class="container-fluid">
+        <a class="navbar-brand" href="#">Via Ticket</a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent"
+          aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+            <li class="nav-item">
+              <a class="nav-link active" aria-current="page" href="inicio.html">DASHBOARD</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="caracteristicas.html">CARACTERÍSTICAS</a>
+            </li>
+            <li class="nav-item dropdown">
+              <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown"
+                aria-expanded="false">
+                TICKETS
+              </a>
+              <ul class="dropdown-menu">
+                <li><a class="dropdown-item" href="newTicket.html">NUEVO TICKET</a></li>
+                <li><a class="dropdown-item" href="#">TICKETS ABIERTOS</a></li>
+                <li><a class="dropdown-item" href="historial.html">HISTORIAL</a></li>
+              </ul>
+            </li>
+          </ul>
+          <form class="d-flex" role="search">
+            <div class="dropdown me-2">
+              <button class="btn btn-outline-light dropdown-toggle" type="button" data-bs-toggle="dropdown" aria-expanded="false">
+                <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-person" viewBox="0 0 16 16">
+                  <path d="M8 8a3 3 0 1 0 0-6 3 3 0 0 0 0 6Zm2-3a2 2 0 1 1-4 0 2 2 0 0 1 4 0Zm4 8c0 1-1 1-1 1H3s-1 0-1-1 1-4 6-4 6 3 6 4Zm-1-.004c-.001-.246-.154-.986-.832-1.664C11.516 10.68 10.289 10 8 10c-2.29 0-3.516.68-4.168 1.332-.678.678-.83 1.418-.832 1.664h10Z"/>
+                </svg>
+              </button>
+              <ul class="dropdown-menu">
+                <li><a class="dropdown-item" href="perfil.html">Perfil</a></li>
+                <li><a class="dropdown-item" href="#">Cambio Contraseña</a></li>
+                <li><a class="dropdown-item" href="#">Cerrar Sesión</a></li>
+              </ul>
+            </div>
+            <input class="form-control me-2" type="search" placeholder="BUSCAR" aria-label="Search">
+            <button class="btn btn-outline-light" type="submit">BUSCAR</button>
+          </form>
         </div>
-      </nav>
-</header>
+      </div>
+    </nav>
+  </header>
 <div class="container-fluid">
   <div id="carouselExampleIndicators" class="carousel carousel-dark slide" data-bs-ride="true">
     <div class="carousel-indicators">
