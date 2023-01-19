@@ -56,3 +56,6 @@ new Chart($grafica, {
     }
 });
 }
+$('#btnUpload').click(function(){
+    $('#adjTicket').click();
+});
