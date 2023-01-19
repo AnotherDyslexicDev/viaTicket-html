@@ -14,6 +14,7 @@ $('#login').on('click', function(event) {
     $(location).attr('href', "login.html");
     return false;
 });
+if(document.getElementById('grafica')){
 // Obtener una referencia al elemento canvas del DOM
 const $grafica = document.querySelector("#grafica");
 // Las etiquetas son las que van en el eje X. 
@@ -54,3 +55,4 @@ new Chart($grafica, {
         },
     }
 });
+}
