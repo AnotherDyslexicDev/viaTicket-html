@@ -63,33 +63,32 @@
       <form class="mt-5">
           <div class="row">
             <div class="col-lg-4 col-md-6 col-sm-12 mb-3">
-              <label for="lblNombre" class="form-label">Nombre: </label>              
-              <input type="text" disabled class="form-control" id="inNombre" placeholder="John Doe"><button class="btn btn-primary btn-sm"><i class="fa-solid fa-pencil"></i></button>
+              <label for="inNombre" class="form-label">Nombre: </label>              
+              <input type="text" disabled class="form-control" id="inNombre" placeholder="John">
+              
             </div>
             <div class="col-lg-4 col-md-6 col-sm-12 mb-3">
-                <label for="aTicket" class="form-label">Asunto</label>
-                <input type="text" class="form-control" id="aTicket">
+                <label for="inApellidoP" class="form-label">Apellido Paterno</label>
+                <input type="text"  disabled id="inApellidoP" placeholder="Doe" class="form-control">
               </div>
               <div class="col-lg-4 col-md-6 col-sm-12 mb-3">
-                <label for="aTicket" class="form-label">Asunto</label>
-                <input type="text" class="form-control" id="aTicket">
+                <label for="inApellidoM"  class="form-label">Apellido Materno</label>
+                <input type="text" disabled id="inApellidoM" class="form-control">
               </div>
               <div class="col-lg-4 col-md-6 col-sm-12 mb-3">
-                <label for="aTicket" class="form-label">Asunto</label>
-                <input type="text" class="form-control" id="aTicket">
+                <label for="imEmail" class="form-label">Correo</label>
+                <input type="text" disabled id="imEmail" placeholder="JohnDoe@unknown.identity" class="form-control">
               </div>
               <div class="col-lg-4 col-md-6 col-sm-12 mb-3">
-                <label for="aTicket" class="form-label">Asunto</label>
-                <input type="text" class="form-control" id="aTicket">
+                <label for="inUsuario" class="form-label">Usuario</label>
+                <input type="text" disabled placeholder="unknown" id="inUsuario"class="form-control">
               </div>
-              <div class="col-lg-4 col-md-6 col-sm-12 mb-3">
-                <label for="aTicket" class="form-label">Asunto</label>
-                <input type="text" class="form-control" id="aTicket">
-              </div>
+             
           </div>          
           <div class="col-12">
             <button type="button" id="envTicket" class="btn btn-primary">Enviar</button>
             <button type="button" id="canTicket" class="btn btn-danger">Cancelar</button>
+            <button type="button" class="btn btn-warning">Modificar <i class="fa-solid fa-pencil"></i></button>
           </div>
       </form>
     </div>
