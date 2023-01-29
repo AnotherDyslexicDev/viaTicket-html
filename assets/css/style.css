@@ -2,3 +2,17 @@
     padding-left: 0;
     padding-right: 0;
 }
+
+.navbar-custom {
+    background-color:#6d00ea;
+
+    ;
+    
+}
+.navbar-custom .navbar-brand,
+        .navbar-custom .navbar-text {
+            color: white;
+        }
+.custom-bg {
+    background-color:#f5e7ff;
+}
